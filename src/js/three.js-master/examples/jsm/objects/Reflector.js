@@ -248,7 +248,7 @@ Reflector.ReflectorShader = {
 
 		'void main() {',
 
-		'	vec4 base = texture2DProj( tDiffuse, vUv );',
+		'	vec4 base = texture2DProj( tDiffuse, vUv ) * 0.001;',
 		'	gl_FragColor = vec4( blendOverlay( base.rgb, color ), 1.0 );',
 
 		'}'
