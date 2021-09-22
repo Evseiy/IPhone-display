@@ -1,0 +1,19 @@
+{
+    "name": "editor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sw.js",
+    "directories": {
+        "doc": "docs",
+        "example": "examples"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "http-server -p 3000"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "http-server": "^0.12.3"
+    }
+}
